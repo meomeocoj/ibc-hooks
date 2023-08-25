@@ -11,7 +11,7 @@ require (
 	github.com/gogo/protobuf v1.3.3
 	github.com/gorilla/mux v1.8.0
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
-	github.com/osmosis-labs/osmosis/osmoutils v0.0.0-20230510161551-8bf252f26bae
+	github.com/osmosis-labs/osmosis/osmoutils v0.0.0-20230807183608-16c217dedde5
 	github.com/spf13/cobra v1.7.0
 	github.com/tendermint/tendermint v0.37.0-rc1
 	google.golang.org/grpc v1.55.0
@@ -33,6 +33,7 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bgentry/speakeasy v0.1.1-0.20220910012023-760eaf8b6816 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.3.2 // indirect
+	github.com/bytedance/sonic v1.10.0 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.3 // indirect
 	github.com/cespare/xxhash v1.1.0 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
@@ -134,7 +135,7 @@ require (
 	github.com/tecbot/gorocksdb v0.0.0-20191217155057-f0fad39f321c // indirect
 	github.com/tendermint/go-amino v0.16.0 // indirect
 	github.com/tendermint/tm-db v0.6.8-0.20220506192307-f628bb5dc95b // indirect
-	github.com/tidwall/btree v1.5.0 // indirect
+	github.com/tidwall/btree v1.6.0 // indirect
 	github.com/ugorji/go/codec v1.2.11 // indirect
 	github.com/zondax/hid v0.9.1 // indirect
 	github.com/zondax/ledger-go v0.14.1 // indirect
@@ -165,6 +166,5 @@ replace (
 	github.com/cosmos/cosmos-sdk => github.com/cosmos/cosmos-sdk v0.45.16-ics
 	// use cosmos-compatible protobufs
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
-	github.com/osmosis-labs/osmosis/osmoutils => github.com/osmosis-labs/osmosis/osmoutils v0.0.0-20230510161551-8bf252f26bae
 	github.com/tendermint/tendermint => github.com/cometbft/cometbft v0.34.27
 )
