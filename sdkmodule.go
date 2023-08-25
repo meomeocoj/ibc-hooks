@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/meomeocoj/ibc-hooks/keeper"
+	"github.com/osmosis-labs/osmosis/x/ibc-hooks/keeper"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
@@ -13,8 +13,8 @@ import (
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
 
-	"github.com/meomeocoj/ibc-hooks/client/cli"
-	"github.com/meomeocoj/ibc-hooks/types"
+	"github.com/osmosis-labs/osmosis/x/ibc-hooks/client/cli"
+	"github.com/osmosis-labs/osmosis/x/ibc-hooks/types"
 
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 

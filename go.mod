@@ -1,4 +1,4 @@
-module github.com/meomeocoj/ibc-hooks
+module github.com/osmosis-labs/osmosis/x/ibc-hooks
 
 go 1.20
 

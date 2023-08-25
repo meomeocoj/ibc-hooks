@@ -15,7 +15,7 @@ import (
 	"github.com/tendermint/tendermint/crypto/tmhash"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/meomeocoj/ibc-hooks/types"
+	"github.com/osmosis-labs/osmosis/x/ibc-hooks/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

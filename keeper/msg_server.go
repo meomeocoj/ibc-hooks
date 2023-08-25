@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/meomeocoj/ibc-hooks/types"
+	"github.com/osmosis-labs/osmosis/x/ibc-hooks/types"
 )
 
 type msgServer struct {
